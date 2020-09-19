@@ -1,15 +1,24 @@
 {
-  "name": "threejstemplate",
+  "name": "@johanbook/three-sim",
   "version": "0.1.0",
-  "private": true,
+  "author": "Johan Book",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johanbook/three-sim.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/johanbook/three-sim/issues"
+  },
+  "homepage": "https://github.com/johanbook/book-utils#readme",
   "scripts": {
     "serve": "react-scripts start"
   },
   "dependencies": {
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.3",
-    "three": "^0.120.1"
+    "three": "^0.120.1",
+    "three-orbit-controls": "^82.1.0"
   },
   "browserslist": {
     "production": [
@@ -25,6 +34,7 @@
   },
   "devDependencies": {
     "eslint": "^7.9.0",
-    "prettier": "^2.1.2"
+    "prettier": "^2.1.2",
+    "react-scripts": "3.4.3"
   }
 }

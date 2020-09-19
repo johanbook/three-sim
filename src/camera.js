@@ -1,4 +1,5 @@
 import * as Three from "three";
+const OrbitControls = require("three-orbit-controls")(Three);
 
 /** Create a camera */
 export function initializeCamera() {
@@ -9,6 +10,7 @@ export function initializeCamera() {
     10
   );
   camera.position.z = 1;
+  new OrbitControls(camera);
   return camera;
 }
 export default initializeCamera();
